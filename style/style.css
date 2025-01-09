@@ -11,6 +11,7 @@
 /* Shared color */
 .secondary-bg{ background-color: #FFF8F3;
 }
+
 /* main */
 main{
     max-width: 1140px;
@@ -125,16 +126,65 @@ main section{
 }
 
 
+.about{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: 1em sans-serif;
+    font-variant: gd;
+}
+/* resume section style */
+.section-title{
+    text-align: center;
+}
+.resume-container{
+    display: flex;
+gap: 24px;
+}
+.experience-description .experience-sub-title{
+    color: #757575;
+    font-size: 16px;
+    margin-top: 16px;
+}
+.experience-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: bold;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.GG{
+    text-align: center;
+}
 
+.PP{
+    margin-top: 50px;
+}
+/* footer */
 
+/* footer Style */
+footer{
+    padding: 130px 230px; display: flex;
+    gap: 100px;
+}
 
+.footer-column{
+    width: 50%;
+}
 
-
-
-
-
-
-
+footer input[type="text"], footer input[type="email"] , footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    /* display: block; */
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
+}
 
 
 
